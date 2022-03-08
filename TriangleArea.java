@@ -9,7 +9,8 @@ public class TriangleArea extends Thread{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Triangle Area is : " + i);
+            double height = Math.abs(Math.pow(i,2) + Math.pow(i/2,2));
+            System.out.println("Triangle Area is : " + (i * height) / 2);
         }
     }
 }

@@ -9,7 +9,7 @@ public class SquareArea extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Square Area is : " + i);
+            System.out.println("Square Area is : " + (i * i));
         }
     }
 }

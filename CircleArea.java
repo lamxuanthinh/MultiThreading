@@ -9,7 +9,7 @@ public class CircleArea extends Thread{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Circle Area is : " + i);
+            System.out.println("Circle Area is : " + (i * i * Math.PI));
         }
     }
 }
